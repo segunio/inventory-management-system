@@ -1,0 +1,156 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set basic font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Set container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Set heading styles */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+}
+
+/* Set button styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+/* Set table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Set form styles */
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form input, .form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Set link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Set utility classes */
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mb-3 {
+  margin-bottom: 20px;
+}
+
+.me-2 {
+  margin-right: 10px;
+}
+
+.me-3 {
+  margin-right: 15px;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+
+.lead {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Homepage specific styles */
+.container {
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 50px;
+}

@@ -1,0 +1,35 @@
+.error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    margin-right: 10px;
+  }
+  
+  .mt-5 {
+    margin-top: 2rem;
+  }
+  
+  .mt-3 {
+    margin-top: 1.5rem;
+  }
+  
